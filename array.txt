@@ -1,0 +1,12 @@
+using System;
+class HelloWorld {
+  static void Main() {
+  string[]name={"muhammad " , "huzaifa " , "siddiqui " };
+    name[0]="siddiqui " ;
+    name[1]="huzaifa " ;
+    name[2]="muhammad " ;
+    Console.Write(name[0]);
+    Console.Write(name[1]);
+    Console.WriteLine(name[2]);
+  }
+}
